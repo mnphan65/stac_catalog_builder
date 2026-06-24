@@ -40,7 +40,6 @@ STAC_ROOT = "/home/opentopo/apps/tomcat9/webapps/stac/"  # Output root for STAC 
 ITEMS_DIR = os.path.join(STAC_ROOT, "items")  # Directory for STAC item JSON files
 INDEX_CSV = os.path.join(STAC_ROOT, "raster_index.csv")  # Raster index CSV file
 STAC_INDEX_CSV = os.path.join(STAC_ROOT, "stac_index.csv")  # STAC index CSV file
-#BASE_URL = "https://twsa.ucsd.edu/STAC"  # Base public URL for catalog
 BASE_URL = "https://portal.opentopography.org/stac"  # Base public URL for catalog
 ITEMS_URL = f"{BASE_URL}/items"
 DATA_URL_PREFIX = "https://opentopography.s3.sdsc.edu/raster"  # Public prefix for raster data
